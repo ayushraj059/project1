@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MakeMyTrip Replica</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="header">
+        <img src="mmt.png" width="440" alt="MakeMyTrip Logo">
+        
+        <span class="header-item">
+            <img src="property.png" height="20" alt="">   
+            List Your Property<br>
+            Grow your business!
+        </span>
+    
+        <span class="header-item">
+            <img src="mybizz.png" alt="">Introducing myBiz<br>
+            Business Travel Solution
+        </span>
+    
+        <span class="header-item">
+            <img src="mytrip.png" height="20" alt="">My Trips
+        </span>
+    
+        <span class="header-item">
+            <img src="my.png" height="15" alt="" style="vertical-align: middle;"> Login or Create Account
+        </span>
+    </div>
+    
+    <main class="navbar">
+        <span class="menu-item">
+            <i class="fa-solid fa-plane-departure"></i> Flights
+        </span>
+        <span class="menu-item">
+            <i class="fa-solid fa-hotel"></i> Hotels
+        </span>
+        <span class="menu-item">
+            <i class="fa-solid fa-house"></i> Homestays & Villas
+        </span>
+        <span class="menu-item">
+            <i class="fa-solid fa-train"></i> Trains
+        </span>
+        <span class="menu-item">
+            <i class="fa-solid fa-bus"></i> Buses
+        </span>
+        <span class="menu-item">
+            <i class="fa-solid fa-taxi"></i> Cabs
+        </span>
+        <span class="menu-item">
+            <i class="fa-solid fa-wallet"></i> Forex Card & Currency
+        </span>
+    </main>
+    
+    <div class="search-section">
+        <div class="search-options">
+            <label><input type="radio" name="trip-type" checked> One Way</label>
+            <label><input type="radio" name="trip-type"> Round Trip</label>
+            <label><input type="radio" name="trip-type"> Multi City</label>
+        </div>
+        
+        <div class="location-details">
+            <span class="from-location">
+                <input type="text" id="from" value="FROM" disabled>
+            </span>
+            
+            <span class="to-location">
+                <input type="text" id="to" value="TO" disabled>
+            </span>
+        
+            <span class="departure">
+                <input type="text" id="departure" value="Departure" disabled>
+            </span>
+        
+            <span class="return">
+                <input type="text" id="return" value="Tap to add a Return date" disabled>
+            </span>
+        
+            <span class="travellers">
+                <input type="text" id="travellers" value="1 Traveller" disabled>
+            </span>
+        
+            <span class="class">
+                <input type="text" id="class" value="Economy/Premium Economy" disabled>
+            </span>
+        </div>
+        
+        <div class="extra-savings">
+            <span>
+                <label for="special-fare">Select Special Fare</label><br>
+                <label>Extra Savings</label>
+            </span>
+
+            <span class="savings-card">
+                <input type="radio" id="regular" class="savings-checkbox">
+                <label for="regular">Regular<br> Regular fares</label>
+            </span>
+            <span class="savings-card">
+                <input type="radio" id="student" class="savings-checkbox">
+                <label for="student">Student<br> Extra discounts/baggage</label>
+            </span>
+            <span class="savings-card">
+                <input type="radio" id="senior-citizen" class="savings-checkbox">
+                <label for="senior-citizen">Senior Citizen<br> Up to ₹ 600 off</label>
+            </span>
+            <span class="savings-card">
+                <input type="radio" id="armed-forces" class="savings-checkbox">
+                <label for="armed-forces">Armed Forces<br> Up to ₹ 600 off</label>
+            </span>
+            <span class="savings-card">
+                <input type="radio" id="doctor-nurses" class="savings-checkbox">
+                <label for="doctor-nurses">Doctor and Nurses<br> Up to ₹ 600 off</label>
+            </span>
+        </div>
+
+        <!-- Search Button -->
+        <div class="search-button">
+            <button>SEARCH</button>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2025 MakeMyTrip Replica. All rights reserved by Ayush Raj.</p>
+    </footer>
+</body>
+</html>

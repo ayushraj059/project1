@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('background.png') no-repeat fixed center;
+    background-size: cover;
+}
+h3 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(120, 184, 120);
+    padding: 10px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #d18b8b;
+}
+
+.header img {
+    width: 50px;
+}
+
+.header span {
+    margin-left: 15px;
+    font-size: 14px;
+    color: #333;
+    white-space: nowrap;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsl(0, 27%, 59%);
+    padding: 10px 0;
+}
+
+.navbar .menu-item {
+    list-style: none;
+    color: white;
+    font-size: 16px;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar i {
+    margin-left: 5px;
+}
+
+.search-section {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    max-width: 1000px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.search-options, .location-details, .dates, .travellers-class, .extra-savings {
+    margin-bottom: 20px;
+}
+
+.search-options label {
+    margin-right: 10px;
+}
+
+.location-details, .dates, .travellers-class {
+    display: flex;
+    justify-content: space-between;
+}
+
+.location-details div, .dates div, .travellers-class div {
+    width: 48%;
+}
+
+.savings-cards {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+
+.savings-card {
+    flex: 1 1 calc(30% - 10px);
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.search-button {
+    text-align: center;
+}
+
+.search-button button {
+    padding: 12px 40px; 
+    font-size: 20px; 
+    background-color: #14b0ee;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.search-button button:hover {
+    background-color: #0056b3; 
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #0056b3;
+    color: white;
+}
+
+.savings-card {
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.search-options label {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.location-details span input {
+    width: 140px; 
+    height: 80px; 
+    padding: 10px; 
+    font-size: 16px; 
+    border-radius: 8px; 
+    border: 2px solid #007bff; 
+    margin-bottom: 10px; 
+}
